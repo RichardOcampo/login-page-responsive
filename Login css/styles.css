@@ -1,0 +1,81 @@
+body {
+    background-image: url(./images/pexels-abdullah-ghatasheh-1631677.jpg);
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+}
+
+.card {
+    background-color: rgba(0, 0, 0, 0.7);
+    height: 600px;
+    width: 400px;
+    margin-top: 90px;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    gap: 90px;
+}
+
+.username {
+    border: none;
+    background-color: transparent;
+    border-bottom: 1px solid rgb(255, 20, 147);
+    color: rgb(255, 20, 147);
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.password {
+    border: none;
+    background-color: transparent;
+    border-bottom: 1px solid rgb(255, 20, 147);
+    color: rgb(255, 20, 147);
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.button {
+    border-radius: 15px;
+    border-color: transparent;
+    width: 130px;
+    background-color: rgb(255, 20, 147);
+}
+
+.textInput {
+    position: relative;
+    top: -22px;
+    color: gray;
+    font-size: 10px;
+}
+
+img {
+    position: relative;
+    top: 45px;
+}
+
+#checkbox {
+    position: relative;
+    left: -54px;
+    color: rgb(255, 20, 147);
+}
+
+.button:hover {
+    width: 160px;
+    height: 25px;
+}
+
+.username:focus {
+    outline: none;
+}
+
+.password:focus {
+    outline: none;
+}
+
+.username:hover {
+    font-size: 25px;
+}
+
+.password:hover {
+    font-size: 25px;
+}
